@@ -76,9 +76,17 @@ h3
 #center-pic
 {
     /* background-color: #333333; */
-    margin-top: 7%;
+    margin-top: 2%;
+    padding: 5%;
     text-align: center;
     height: 100vh;
+}
+@media screen and (max-width: 600px)
+{
+    #center-pic
+    {
+        margin-top: 10%;
+    }
 }
 #grey-rectangle
 {
