@@ -1,0 +1,122 @@
+/* Volbil Pallet */
+
+html
+{
+    margin: auto;
+    padding: 0;
+}
+body
+{
+    margin: auto;
+    padding: 0;
+    /* background-color: #112435;*/
+    color: #333333;
+    text-align: center;
+    font-family: Open Sans;
+}
+hr
+{
+    height: 2pt;
+}
+h1
+{
+  
+}
+h2
+{
+    font-family: Overpass Mono;
+    color: white;
+}
+h3
+{
+    font-family: Overpass Mono;
+    color: #333333;
+}
+#mainNav
+{
+    background-color: #333333;
+    padding: 1%;
+}
+.navbar-custom
+{
+    border: none;
+}
+.navbar-custom .navbar-brand
+{
+  color: white;
+  font-size: 20pt;
+  font-family: Overpass Mono;
+}
+.navbar-custom .navbar-nav
+{
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a /* nav items */
+{
+  color: white;
+  font-family: Overpass Mono;
+  font-size: 14pt;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.navbar-custom .navbar-nav li a:hover
+{
+  color: #ff4141;
+  /* border-bottom: 3px solid #ff4141; */
+}
+.navbar-custom .navbar-nav li a:focus
+{
+    color: #ffffff;
+}
+.nav navbar-nav navbar-right
+{
+    margin: 0;
+    padding: 0;
+}
+#center-pic
+{
+    /* background-color: #333333; */
+    margin-top: 7%;
+    text-align: center;
+    height: 100vh;
+}
+#grey-rectangle
+{
+    background-color: #333333;
+    height: 40px;
+}
+#red-rectangle
+{
+    background-color: #ff4141;
+    height: 40px;
+}
+#blue-rectangle
+{
+    background-color: #074a6a;
+    height: 40px;
+}
+.text-column
+{
+    font-size: 12pt;
+    font-family: Open Sans;
+    color: #333333;
+}
+.text-column p
+{
+    text-align: left;
+}
+#email
+{
+    text-align: center;
+    margin: auto;
+    font-family: Overpass Mono;
+    margin-top: 5%;
+}
+.social-media-icons
+{
+    text-align: center;
+}
+.social-media-icons img
+{
+    padding: 0px, 20px, 0px, 20px;
+}
