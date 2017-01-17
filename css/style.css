@@ -4,19 +4,22 @@ html
 {
     margin: auto;
     padding: 0;
+    max-width: 100%;
 }
 body
 {
     margin: auto;
     padding: 0;
-    /* background-color: #112435;*/
     color: #333333;
     text-align: center;
     font-family: Open Sans;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 hr
 {
     height: 2pt;
+    border: none;
 }
 h1
 {
@@ -36,10 +39,12 @@ h3
 {
     background-color: #333333;
     padding: 1%;
+    
 }
 .navbar-custom
 {
     border: none;
+    overflow: hidden;
 }
 .navbar-custom .navbar-brand
 {
