@@ -16,6 +16,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono:300, 400" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,14 +31,14 @@
 <body>
 
 <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">a/lyons</a>
+                <a class="navbar-brand" href="index.html">a/lyons</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,7 +75,7 @@
         </div>
     </div>
 
-    <br>
+    
 
     <div class = "container">
         <div class = "row">
@@ -92,12 +95,12 @@
             <div class = "col-sm-4 text-column">
                 <h3> Projects </h3>
                 <hr style = "background-color: #ff4141">
-                <p> </p>
+                <p> Al Horford - Designed the website of the all-star center for the Boston Celtics.</p>
             </div>
             <div class = "col-sm-4 text-column">
                 <h3> Interests </h3>
                 <hr style = "background-color: #074a6a">
-                <p style = "text-align: center;"> Golf <br> Soccer <br> Snowboarding <br> Hiking <br> Stand-up </p>
+                <p style = "text-align: center;"> Golf <br> Soccer <br> Snowboarding <br> Hiking </p>
 
             </div>
         </div>
@@ -108,7 +111,7 @@
     <div class = "container" id = "email">
         <div class = "row">
             <div class = "col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
-                <p style = "border: 2px solid #333333; text-align: center; padding: 1em"> aaronlyo@usc.edu </p>
+                <p style = "border: 2px solid #333333; padding: 1em; text-align: center"> aaronlyo@usc.edu </p>
             </div>
         </div>
     </div>
@@ -127,7 +130,16 @@
     <br>
 
     <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $('body').smoothScroll(
+            {
+                delegateSelector: 'ul.nav a'
+            });
+        });
+    </script>
 
 </body>
 </html>
