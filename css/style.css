@@ -48,30 +48,53 @@ h3
 }
 .navbar-custom .navbar-brand
 {
-  color: white;
-  font-size: 20pt;
-  font-family: Overpass Mono;
+    color: white;
+    font-size: 20pt;
+    font-family: Overpass Mono;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand.active
+{
+    /* affects the "brand" text aka the Logo */
 }
 .navbar-custom .navbar-nav
 {
-  letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a /* nav items */
 {
-  color: white;
-  font-family: Overpass Mono;
-  font-size: 14pt;
-  font-weight: 100;
-  text-transform: uppercase;
+    color: white;
+    font-family: Overpass Mono;
+    font-size: 14pt;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 .navbar-custom .navbar-nav li a:hover
 {
-  color: #ff4141;
-  /* border-bottom: 3px solid #ff4141; */
+    color: #ff4141;
+    /* border-bottom: 3px solid #ff4141; */
 }
 .navbar-custom .navbar-nav li a:focus
 {
-    color: #ffffff;
+    /* locks the focused nav element in this color --> looking to fix */ 
+    color: #ff4141; 
+}
+.navbar-custom .navbar-toggle
+{
+    color: white;
+    background: none;
+    border: none;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background: none;
+    color: #ff4141;
+    border: none;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active
+{
+    color: #ff4141;
 }
 .nav navbar-nav navbar-right
 {
@@ -85,6 +108,13 @@ h3
     padding: 5%;
     text-align: center;
     height: 100vh;
+}
+@media screen and (max-width: 720px)
+{
+    #center-pic
+    {
+        margin-top: 10%;
+    }
 }
 @media screen and (max-width: 600px)
 {
@@ -108,6 +138,10 @@ h3
     background-color: #074a6a;
     height: 40px;
 }
+#about
+{
+    line-height: 1.5;
+}
 .text-column
 {
     font-size: 12pt;
@@ -117,6 +151,17 @@ h3
 .text-column p
 {
     text-align: left;
+}
+#student
+{
+
+}
+#interests
+{
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
 }
 #email
 {
