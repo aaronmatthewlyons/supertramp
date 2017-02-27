@@ -198,4 +198,47 @@ h3
 .social-media-icons img
 {
     padding: 0px, 20px, 0px, 20px;
+    opacity: .5;
+}
+.no-opacity img
+{
+    opacity: 1;
+}
+
+/* 
+    Text overlay
+    S/o to codepen
+ */
+
+div.image-wrapper
+{
+    float: left; /* important */
+    position: relative; /* important - so we can absolutely position the description div */
+}
+div.image-description
+{
+    position: absolute; /* absolute position - so we can position it where we want*/
+    bottom: 0px; /* position will be on bottom */
+    left: 0px;
+    width: 100%;
+
+    /* styling */
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    background-color: black;
+    color: #008348;
+    opacity:0.7;
+    filter:alpha(opacity=70); /* IE transparency */
+}
+p.description-content
+{
+    padding: 10px;
+    margin: 0px;
+}
+p.description-content a
+{
+   text-decoration: none;
+}
+p.description-content a:hover
+{
+  
 }
