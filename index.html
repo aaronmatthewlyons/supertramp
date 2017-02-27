@@ -127,7 +127,17 @@
 
                 <hr style = "background-color: #ff4141">
 
-                <p> Al Horford - Designed the website of the all-star center for the Boston Celtics.</p>
+                <div class = "image-wrapper">
+
+                    <img src = "img/horford_bw.jpg" class = "center-block img-responsive">
+
+                    <div class = "image-description">
+
+                        <p class = "description-content"><a href = "http://www.alhorford.com" target= "_blank"> Al Horford: <br> Web Design & Development </a></p>
+
+                    </div>
+                </div>
+
             </div>
 
             <div class = "col-sm-4 text-column">
@@ -145,6 +155,8 @@
 
             </div>
         </div>
+
+        <br>
 
         <!-- Skills -->
 
@@ -211,7 +223,7 @@
     <br>
 
     <div class = "social-media-icons" id = "contact">
-        <div class = "row">
+        <div class = "row" id = "find-me-icons">
             <a href = "https://www.facebook.com/aaron.lyons.95/" target = "_blank"><img src = "img/facebook.png" width = "40px"></a>
             <a href = "https://twitter.com/aaronmlyons" target = "_blank"><img src = "img/twitter.png" width = "40px"></a>
             <a href = "https://www.instagram.com/aaronmatthewlyons/" target = "_blank"><img src = "img/instagram.png" width = "40px"></a>
@@ -233,6 +245,18 @@
                 delegateSelector: 'ul.nav a'
             });
         });
+    </script>
+
+    <script>
+    
+        $(document).ready( function()
+         {
+            $("#find-me-icons").children().on("mouseover mouseleave", function()
+            {
+                $(this).toggleClass("no-opacity");
+            });
+        });
+
     </script>
 
     <!-- Bootstrap Core JavaScript -->
