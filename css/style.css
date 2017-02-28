@@ -5,6 +5,7 @@ html
     margin: auto;
     padding: 0;
     max-width: 100%;
+    overflow-x: hidden;
 }
 body
 {
@@ -40,6 +41,10 @@ h3
     background-color: #333333;
     padding: 1%;
     
+}
+#nav-container
+{
+    overflow-x: hidden;
 }
 .navbar-custom
 {
