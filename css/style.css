@@ -114,11 +114,29 @@ h3
     text-align: center;
     height: 100vh;
 }
+#mini-me
+{
+    display: none;
+}
 @media screen and (max-width: 720px)
 {
     #center-pic
     {
         margin-top: 10%;
+    }
+}
+@media screen and (max-width: 660px)
+{
+    #me
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 660px)
+{
+    #mini-me
+    {
+        display: block;
     }
 }
 @media screen and (max-width: 600px)
